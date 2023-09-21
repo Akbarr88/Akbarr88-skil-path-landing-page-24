@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    position: relative;
+    background: var(--Primary, #54BAB9);
+}
+
+/* Navigasi Bar */
+.logo{
+    position: relative;
+    width: 200px;
+    height: 75px;
+    background: var(--Primary, #54BAB9);
+    top: 20px;
+}
+.navbar {
+    background: var(--Primary, #54BAB9);
+    width: 1920px;
+    height: 60px; 
+    flex-shrink: 0;
+    color: #FAF9F9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 60px;      
+    position: relative;
+    top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    background-color: #224F34;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 30px;
+    position: static;
+}
+
+.iconppl{
+    position: relative;
+    top: 20px;
+}
+
+/* Hero */
+.main-hero{
+    background: var(--Primary, #54BAB9);
+    width: 1920px;
+    height: 820px; 
+    display: flex;
+    color: white;
+    width: 100%;
+}
+
+/* Hero section 1 */
+.hero {
+    background: var(--Primary, #54BAB9);
+    width: 1920px;
+    height: 820px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 50%;
+}
+
+.hero h1 {
+    color: #FAF9F9;
+    text-align: center;
+    font-family: 'Rufina';
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 360px;
+    height: 400px;
+    flex-shrink: 0;
+    background: var(--Primary, #54BAB9);
+    position: relative;
+    top: 20px;
+}
+
+.hero p {
+    color: rgba(250, 249, 249, 0.98);
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    width: 618px;
+    position: relative;
+    top: -20px;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: var(--Primary, #54BAB9);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+    top: -10px;
+}
+
+.cta-button:hover {
+    background-color: #224F34;
+    color: #fff;
+}
+
+/* hero section 2 */
+.hero2 {
+    background: var(--Primary, #54BAB9);
+    width: 1920px;
+    height: 820px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 50%;
+}
+
+.imghero2{
+    position: relative;
+    
+}
+
+#misi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f7f7f7;
+}
+
+#misi .misi-text{
+    width: 30%;
+    background-color: #18978F;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+#misi .misi-text p{
+    font-size: 16px;
+    padding: 30px;
+    color: #f7f7f7;
+    position: relative;
+    top: -10px;
+}
+
+#misi .misi-text button{
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    border: 0;
+    padding: 7px 12px;
+    color: #f7f7f7;
+    position: relative;
+    top: -20px;
+}
+
+#misi .misi-text button a{
+    color: #18978F;
+    text-decoration: none;
+}
+
+#misi .misi-text button:hover{
+    background-color: #224F34;
+}
+
+#misi .misi-text button:hover a{
+    color: #ffffff;
+}
+
+#about-bullying{
+    height: 300px;
+    background-color: #18978F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f7f7f7;
+}
+
+#about-bullying .about-bullying-text{
+    width: 30%;
+}
+
+#about-bullying .about-bullying-text p{
+    font-size: 16px;
+    padding: 20px 0px 20px 0px;
+}
+
+#about-bullying .about-bullying-text button{
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    border: 0;
+    padding: 7px 15px;
+    color: #54BAB9;
+}
+
+#about-bullying .about-bullying-text button a{
+    color: #54BAB9;
+    text-decoration: none;
+}
+
+#about-bullying .about-bullying-text button:hover{
+    background-color: #224F34;
+}
+
+#about-bullying .about-bullying-text button:hover a{
+    color: #ffffff;
+    list-style-type: none;
+}
+
+#fitur{
+    background-image: url("https://i.postimg.cc/sf453LBZ/Rectangle-51.png");
+    background-size: cover;
+    padding: 40px;
+}
+
+#fitur .fitur-text{
+    color: #224F34;
+    font-size: 20px;
+    text-align: center;
+}
+
+#fitur .fitur-content{
+    display: flex;
+    justify-content: space-around;
+    color: #f7f7f7;
+}
+
+.fitur-content .isi-fitur{
+    width: 200px;
+    background-color: #18978F;
+    padding: 50px;
+    margin: 40px;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.fitur-content li{
+    font-size: 16px;
+    position: relative;
+    top: -20px;
+}
+
+.fitur-content p{
+    font-size: 12px;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+    top: -5px;
+}
+
+.fitur-content h4{
+    padding: 20px 0px 0px 0px;
+}
+
+.fitur-content button{
+    border-radius: 20px;
+    background-color: #f7f7f7;
+    border: 0;
+    padding: 7px 15px;
+    color: #f7f7f7;
+    position: relative;
+    top: -20px;
+}
+
+.fitur-content button:hover{
+    background-color: #224F34;
+}
+
+.fitur-content .buttonKonseling{
+    position: relative;
+    top: 40px;
+}
+
+.fitur-content .buttonArtikel{
+    position: relative;
+    top: 25px;
+}
+
+.fitur-content .buttonForum{
+    position: relative;
+    top: 35px;
+}
+.fitur-content button a{
+    text-decoration: none;
+    color: #54BAB9;
+}
+
+.fitur-content button:hover a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#feedback{
+    padding: 90px;
+}
+
+#feedback .feedback-tittle{
+    color: #224F34;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+#feedback .feedback-comment{
+    display: flex;
+    justify-content: space-around;
+}
+
+#feedback .feedback-comment .feedback-text{
+    width: 33%;
+    padding: 30px;
+    margin: 40px;
+    font-size: 12px;
+    
+}
+
+#feedback .feedback-comment .feedback-text h3{
+    font-size: 18px;
+}
+
+#feedback .feedback-comment .feedback-text p{
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+}
+
+#feedback .feedback-comment .feedback-text img{
+    position: relative;
+    right:25px;
+    top: -15px;
+    font-size: 14px;
+}
+    
+
+
+/* style untuk form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+#form{
+    padding: 50px;
+    background-color: #54BAB9;
+}
+
+#form .form-area{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(72, 139, 143, 1);
+    border-radius: 50px;
+}
+
+#form .form-area form{
+    padding: 20px 0px 20px 0px;
+}
+
+#form .form-area h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 30px 0px 0px 0px;
+}
+
+.form-area input{
+    width: 100%;
+    border: 0;
+    height: 18px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #FAF9F9;
+}
+
+#form .form-area label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-area input:nth-child(10){
+    width: 5%;
+    margin-right: 5px;
+}
+
+.form-area form button{
+    display: inline-block;
+    color: #54BAB9;
+    padding: 7px;
+    border: 0;
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 14px;
+    position: relative;
+    left: 90px;
+    position: relative;
+    top: 20px;
+}
+
+.form-area button:hover{
+    background-color: rgba(34, 79, 52, 1);
+    color: #54BAB9;
+    color: #ffffff;
+}
+
+#warning {
+    color: red;
+    margin-top: 10px;
+}
+
+#footers{
+    display: flex;
+    gap: 100px;
+}
+
+footer{
+    background-color: #18978F;
+    padding: 30px;
+    color: #f7f7f7;
+    display: flex;
+}
+
+footer #social-media{
+    width: 33%;
+    text-align: center;
+}
+
+footer #social-media h4{
+    padding: 10px 0;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+footer ul li{
+    list-style-type: none;
+}
+
+footer a{
+    color: #f7f7f7;
+    font-size: 12px
+}
