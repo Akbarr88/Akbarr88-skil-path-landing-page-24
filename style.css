@@ -64,6 +64,7 @@ nav ul li a:hover{
     padding: 6px 10px;
     border-radius: 30px;
     position: static;
+    margin: -10px;
 }
 
 .iconppl{
